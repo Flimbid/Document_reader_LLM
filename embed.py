@@ -6,7 +6,7 @@ from langchain_community.document_loaders import TextLoader
 import os
 
 
-API_KEY ="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"
+API_KEY ="input your openai api key here"
 
 embeddings = OpenAIEmbeddings(openai_api_key=API_KEY)
 
