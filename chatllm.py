@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 
 
-API_KEY ="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"
+API_KEY ="input your openai api key here"
 
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7,max_tokens=500, openai_api_key=API_KEY)
